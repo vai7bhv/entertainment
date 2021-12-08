@@ -1,0 +1,38 @@
+.singleContent {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #080618;
+  border-radius: 10px;
+  position: relative;
+}
+
+@media (max-width: 550px) {
+  .singleContent {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+.singleContent :hover {
+  width: 210px;
+  cursor: pointer;
+
+  transition: ease-in 2s;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+.subTitle {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}

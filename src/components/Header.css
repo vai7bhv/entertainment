@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #161122;
+  width: 100%;
+  padding: 10px;
+  color: #e7dfdd;
+  font-size: 5vw;
+  padding-bottom: 15px;
+  box-shadow: 0 2px 5px black;
+  z-index: 100;
+  font-family: Rubic;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    font-size: 6.4vw;
+    padding-top: 13px;
+    justify-content: center;
+  }
+}
